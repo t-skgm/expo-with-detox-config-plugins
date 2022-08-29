@@ -1,16 +1,18 @@
-# expo with detox and config-plugins/detox
+# Minimal reproduction of E2E tests using Expo, Detox and config-plugins/detox
 
 ## Run tests
 
-準備
+### preparation
 
 ```bash
 $ npm install -g detox-cli expo-cli
 $ npm install
 ```
 
-実行
+### Run
 
 ```bash
 $ yarn e2e:ios
+# or
+$ yarn e2e:android
 ```
