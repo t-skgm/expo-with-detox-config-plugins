@@ -5,7 +5,7 @@
 # This ensures that CI fails on the correct step instead of attempting to run Detox tests without a
 # build.
 
-set -eux
+set -eu
 
 iosName=$1
 # Debug or Release

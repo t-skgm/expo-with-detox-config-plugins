@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -eux
-
 port=${1:-8081}
 
 PACKAGER_STATUS_URL="http://localhost:${port}/status"

@@ -1,5 +1,5 @@
 const iosName = "expodetoxconfigplugins";
-const emulator = "Pixel_3a_API_30";
+const emulator = "Pixel_4_API_30";
 const simulator = "iPhone 13 Pro";
 const derivedDataPath = "ios/build";
 const sdk = "iphonesimulator";

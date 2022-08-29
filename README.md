@@ -1,8 +1,16 @@
 # expo with detox and config-plugins/detox
 
-# memo
+## Run tests
+
+準備
 
 ```bash
-# required
 $ npm install -g detox-cli expo-cli
+$ npm install
+```
+
+実行
+
+```bash
+$ yarn e2e:ios
 ```
